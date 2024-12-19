@@ -35,7 +35,7 @@ git clone https://github.com/kanakbosse/laravelLive.git
 ```
 - Change directory
 ```
-cd oredoo-laravel-blog-project
+cd laravelLive
 ```
 - Copy .env.example file
 ```
