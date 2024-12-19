@@ -13,13 +13,7 @@ A multi user cms with (category multi template pages) blog project using Laravel
 - Pages
 - Dynamic header, footer menu
 - Post, comment, category trash and restore
-- e
 
-<p align="center" width="100%">
-    <img width="30%" src=""/>
-    <img width="30%" src=""/>
-    <img width="30%" src=""/>
-</p>
 
 ## Installation
 
