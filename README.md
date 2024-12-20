@@ -18,18 +18,7 @@ A multi user cms with (category multi template pages) blog project using Laravel
 <<<<<<< HEAD
 - e
 
-## Screenshots
-<p align="center" width="100%">
-    <img width="30%" src="">
-    <img width="30%" src=""/>
-    <img width="30%" src=""/>
-</p>
-<p align="center" width="100%">
-    <img width="30%" src=""/>
-    <img width="30%" src=""/>
-    <img width="30%" src=""/>
-</p>
-=======
+
 
 >>>>>>> 3ad1b4a56b5847b98914a4050156d8763014e95f
 
