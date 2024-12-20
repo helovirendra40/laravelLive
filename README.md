@@ -1,7 +1,6 @@
-<<<<<<< HEAD
-=======
+
 vidyalive
->>>>>>> 3ad1b4a56b5847b98914a4050156d8763014e95f
+
 # cms with (category multi template pages) blog
 
 A multi user cms with (category multi template pages) blog project using Laravel 10 
