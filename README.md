@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+vidyalive
+>>>>>>> 3ad1b4a56b5847b98914a4050156d8763014e95f
 # cms with (category multi template pages) blog
 
 A multi user cms with (category multi template pages) blog project using Laravel 10 
@@ -12,6 +16,7 @@ A multi user cms with (category multi template pages) blog project using Laravel
 - Pages
 - Dynamic header, footer menu
 - Post, comment, category trash and restore
+<<<<<<< HEAD
 - e
 
 ## Screenshots
@@ -25,6 +30,9 @@ A multi user cms with (category multi template pages) blog project using Laravel
     <img width="30%" src=""/>
     <img width="30%" src=""/>
 </p>
+=======
+
+>>>>>>> 3ad1b4a56b5847b98914a4050156d8763014e95f
 
 ## Installation
 
@@ -34,7 +42,7 @@ git clone https://github.com/kanakbosse/laravelLive.git
 ```
 - Change directory
 ```
-cd oredoo-laravel-blog-project
+cd laravelLive
 ```
 - Copy .env.example file
 ```
