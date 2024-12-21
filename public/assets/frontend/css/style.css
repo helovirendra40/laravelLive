@@ -10454,6 +10454,7 @@ right: 0px;}
 .firstslide{
    text-align: center;
    font-weight: 600;
+   margin-bottom: 20px; margin-top: 20px
 }
 .course_number{
     background-color:#00aced;
@@ -10504,7 +10505,8 @@ right: 0px;}
 
 /* Each column inside the row */
 .slick-slide .row .column {
-    width: 12.5%; /* 100% / 6 columns */
+    /* width: 12.5%; 100% / 6 columns */
+    position: relative;
     background-color: #ffffff;
     text-align: center;
     height:150px;    /* padding: 10px 0px 0px 0px; */
@@ -10549,6 +10551,7 @@ right: 0px;}
     width: 100%;
     font-size: 10px;
     margin-top: 5px;
+    padding: 8px;
     text-align: center;
 }
 .slick-slide .row .column .header-box{
@@ -10582,13 +10585,15 @@ right: 0px;}
 }
 .name{
     color:#3c14cc;
+    position: absolute;
     width: 100%;
     height: auto;
     object-fit: cover;
     border-radius: 10px; /* Remove image border-radius */
-    margin-top: 80px;
+    /* margin-top: 80px; */
     text-align: center;
     font-size: 12px;
+    bottom: 40px;
 }
 
 .wm-post-options li a{
@@ -10868,8 +10873,8 @@ right: 0px;}
 .slick-prev {
     right: 98%;
 }
-.slidecl img{ display: block; margin: 0px auto;
-margin: 0px 0px;
+.slidecl img{ display: block; margin: 0px auto; width: 100px; margin-top: 13px;
+
 }
  /* Continuous Scrolling Text Slider */
  .text-scrolling-slider {
@@ -11212,11 +11217,10 @@ right: 0px;}
 .slidechome img{ width: 90%; margin: 15px auto; margin-bottom: 0px;;}
 .respons .slick-next{ right: -11px}
 .respons .slick-prev{ right: 99.5%;}
+.width-100 img{ width: 100px; margin-top: 20px;}
 
 
-.wm-caption-two88{    transform: translate(-50%, -50%);
-top: 50%;
-left: 50% !important;}
+.wm-caption-two88{    transform: translate(-50%, -50%); top: 50%; left: 50% !important;}
 .form-wrapper88{ width: 100%; display: flex; align-items: center; justify-content: center;}
 .heroSearch { width: 65%;position: relative;}
 .heroSearch input{ width: 100%; }
@@ -11702,5 +11706,13 @@ left: 50% !important;}
     .content-item.active {
         margin-top: 111px;
     }
+    .Explore_Program_Slider{ display: none;}
     /* .fixedLeftTabs{ position: sticky; top: 0px;} */
-.content-item{ }
+
+/* @media (max-width: 991px){
+    .slick-slide .row .column{ width: 18.5%;}
+} */
+ .py-4{ padding-top: 40px; padding-bottom: 40px;}
+ .mt-2{ margin-top: 20px;}
+
+

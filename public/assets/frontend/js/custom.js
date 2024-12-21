@@ -93,3 +93,59 @@ $('.nit-close,.nit-mobile-overlay').click(function(){$('.nit-navigation,.nit-mob
 });
 
  
+$('.Explore_Program_Slider').slick({
+    dots: false,
+    infinite: true,
+    arrows:true,
+    speed: 300,
+    slidesToShow: 6,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: false
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          arrows:false,
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 2,
+          arrows:false,
+          slidesToScroll: 1
+        }
+      }
+      // You can unslick at a given breakpoint now by adding:
+      // settings: "unslick"
+      // instead of a settings object
+    ]
+  });
+
+  function Explore_Program() {
+    // alert("function run")
+    setTimeout(function() {
+        document.querySelector('Explore_Program_Slider').style.display = 'block';
+    }, 1000); // Delay in milliseconds (3000 ms = 3 seconds)
+}
+
+
+
+function respons() {
+    // alert("function run")
+    setTimeout(function() {
+        document.querySelector('respons').style.display = 'block';
+    }, 1000); // Delay in milliseconds (3000 ms = 3 seconds)
+}
+respons();
+Explore_Program();
