@@ -1006,13 +1006,24 @@ address { font-style: italic; }
     /* width: 100%; */
     /* margin-top: -140px; */
     z-index: 32;
-    left: 17%;
+    /* left: 17%; */
+    transform: translate(-50%, -50%); left: 50%; top: 50%;
 
 }
+#search{ padding-left: 15px;}
 .wm-caption-two-inner {
     float: right;
     width: 100%;
+    text-align: center;
 }
+.heroSearchButton{     background: #3F3F40;
+    position: absolute;
+    right: 0px;
+    height: 100%;
+    /* aspect-ratio: 1 / 6; */
+    color: #fff;
+    width: 100px;}
+.cursor-pointer{ cursor: pointer;}
 .form-wrapper88 {
     width: 100%;
     display: flex;
@@ -10634,7 +10645,7 @@ right: 0px;}
     text-align: center;
     padding: 10px 10px 5px 10px;
     width: 100%;
-    max-width: 340px;
+    /* max-width: 340px; */
   }
   .tab-exam-cards {    
     background-color: #e2e5e6;
@@ -10642,7 +10653,7 @@ right: 0px;}
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
     width: 100%;
-    max-width: 340px;
+    /* max-width: 340px; */
   }
   .tab-text-columns {
     display: flex;
@@ -11223,7 +11234,7 @@ left: 50% !important;}
         float: left;
         margin-bottom: 0px;
         text-align: left;
-        left: 140px;
+        /* left: 140px; */
         top: 8px;
     }
     .university-name {font-size: 15px;font-weight: bold;margin-top: 100px;}
@@ -11646,3 +11657,38 @@ left: 50% !important;}
                 right: 0;
             }
         }
+        .changeSearchField{ width: 65%; margin: 0px auto; border-radius: 20px !important;}
+        .heroSearchButton {border-radius: 0px 20px 20px 0px;}
+        #search{ border-radius: 20px;}
+        .logo-dark{ max-width: 220px;}
+        .toggleMenu{ width: unset;}
+        .MobileMenu{ display: none;}
+        @media (max-width:991px){
+            .MobileMenu{ display: block;}
+            .navbar-collapse{ display: none !important;}
+.BackBtn{ display: flex;gap: 5px;
+    align-items: center;}
+    .MobileMenu img{ height: 20px; width: 20px;}
+.MobileMenu{ transition: all 0.3s; position: fixed; width: 300px; background-color: #fff; box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; box-sizing: border-box; padding: 15px; top: 0px;         height: 100vh;
+    z-index: 99;
+    right: -300px;}
+            .menuIconMobile{ display: flex; justify-content: end;}
+        }
+    .MobileMenu ul li a { padding: 7px 15px 7px 0px !important; color: #3e3e40;}
+    .mb-3{ margin-bottom: 30px;}
+    body{ scroll-behavior: smooth;}
+    #content1,
+    #content2,
+    #content3,
+    #content4,
+    #content5,
+    #content6,
+    #content7,
+    #content8,
+    #content9,
+    #content0{
+        scroll-margin-top: 111px;
+    }
+ 
+    
+    /* .fixedLeftTabs{ position: sticky; top: 0px;} */

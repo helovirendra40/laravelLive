@@ -9,11 +9,11 @@
                                     <!-- <img src="{{ asset("uploads/logo/".$sitesettings->logo_dark) }}" alt="{{ $sitesettings->site_title }}" class="logo-white"/> -->
                                 </a>
                             </div>
-                            <div class="col-md-9">
+                            <div class="col-md-9 menuIconMobile">
                                 <!--// Navigation \\-->
                                 <nav class="navbar navbar-default">
                                     <div class="navbar-header">
-                                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="true">
+                                        <button type="button" class="navbar-toggle collapsed toggleMenu" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="true">
                                             <span class="sr-only">Toggle navigation</span>
                                             <span class="icon-bar"></span>
                                             <span class="icon-bar"></span>
@@ -40,6 +40,22 @@
                     </div>
                 </div>
                 <!--// MainHeader \\-->
+
+                <!-- start Mobile menu  -->
+                 <div class="MobileMenu">
+                    <p class="BackBtn"><img width="50" height="50" src="https://img.icons8.com/ios-filled/50/back.png" alt="back"/><span>Back</span></p>
+                    @if (count($menu) > 0)
+                                            <ul class="nav navbar-nav">
+                                                    @foreach ($menu as $item)
+                                                    <li class="nav-item">
+                                                        <a class="nav-link{{ request()->url() == $item["href"] ? " active" : "" }}" href="{{ $item["href"] }}">{{ $item["text"] }}</a>
+                                                    </li>
+                                                    @endforeach
+                                            </ul>
+                                      @endif
+                 </div>
+                 <!-- end of MobileMenu -->
+                <!-- end Mobile menu  -->
                 <!--// TopStrip \\-->
                 <div class="wm-topstrip">
                     <div class="container">
@@ -61,4 +77,5 @@
                 </div>
                 <!--// TopStrip \\-->
 </header>
+
 
