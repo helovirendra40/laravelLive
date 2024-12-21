@@ -72,7 +72,7 @@
                 <div class="data-text active" id="data1"> 
                   <h6></h6>                   
                       <div class="row">
-                        <div class="col-md-4 mb-3">
+                        <div class="col-md-4 col-sm-6 col-xs-12 mb-3">
                             <div class="tab-exam-cards">                                        
                               <div class="tab-text-columns">                                    
                                 <div class="column">                                                                             
@@ -128,7 +128,7 @@
                              </div>
                             </div>
                         </div>
-                        <div class="col-md-4 mb-3">
+                        <div class="col-md-4 col-sm-6 col-xs-12 mb-3">
                           <div class="tab-exam-cards">                                        
                             <div class="tab-text-columns">                                    
                               <div class="column">                                                                             
@@ -185,7 +185,7 @@
                            </div>
                           </div>
                         </div>
-                        <div class="col-md-4 mb-3">
+                        <div class="col-md-4 col-sm-6 col-xs-12 mb-3">
                           <div class="tab-exam-cards">                                        
                             <div class="tab-text-columns">                                    
                               <div class="column">                                                                             
@@ -241,7 +241,7 @@
                 <div class="data-text" id="data2"> 
                   <h6>BE/B.Tech</h6>                   
                       <div class="row">
-                        <div class="col-md-4 mb-3">
+                        <div class="col-md-4 col-sm-6 col-xs-12 mb-3">
                             <div class="tab-exam-cards">                                        
                               <div class="tab-text-columns">                                    
                                 <div class="column">                                                                             
@@ -297,7 +297,7 @@
                              </div>
                             </div>
                         </div>
-                        <div class="col-md-4 mb-3">
+                        <div class="col-md-4 col-sm-6 col-xs-12 mb-3">
                           <div class="tab-exam-cards">                                        
                             <div class="tab-text-columns">                                    
                               <div class="column">                                                                             
@@ -354,7 +354,7 @@
                            </div>
                           </div>
                         </div>
-                        <div class="col-md-4 mb-3">
+                        <div class="col-md-4 col-sm-6 col-xs-12 mb-3">
                           <div class="tab-exam-cards">                                        
                             <div class="tab-text-columns">                                    
                               <div class="column">                                                                             
@@ -410,7 +410,7 @@
                 <div class="data-text" id="data3"> 
                   <h6>MBA/PGDM</h6>                   
                       <div class="row">
-                        <div class="col-md-4 mb-3">
+                        <div class="col-md-4 col-sm-6 col-xs-12 mb-3">
                             <div class="tab-exam-cards">                                        
                               <div class="tab-text-columns">                                    
                                 <div class="column">                                                                             
@@ -466,7 +466,7 @@
                              </div>
                             </div>
                         </div>
-                        <div class="col-md-4 mb-3">
+                        <div class="col-md-4 col-sm-6 col-xs-12 mb-3">
                           <div class="tab-exam-cards">                                        
                             <div class="tab-text-columns">                                    
                               <div class="column">                                                                             
@@ -523,7 +523,7 @@
                            </div>
                           </div>
                         </div>
-                        <div class="col-md-4 mb-3">
+                        <div class="col-md-4 col-sm-6 col-xs-12 mb-3">
                           <div class="tab-exam-cards">                                        
                             <div class="tab-text-columns">                                    
                               <div class="column">                                                                             
@@ -579,7 +579,7 @@
                 <div class="data-text" id="data4"> 
                   <h6>MBBS</h6>                   
                       <div class="row">
-                        <div class="col-md-4 mb-3">
+                        <div class="col-md-4 col-sm-6 col-xs-12 mb-3">
                             <div class="tab-exam-cards">                                        
                               <div class="tab-text-columns">                                    
                                 <div class="column">                                                                             
@@ -635,7 +635,7 @@
                              </div>
                             </div>
                         </div>
-                        <div class="col-md-4 mb-3">
+                        <div class="col-md-4 col-sm-6 col-xs-12 mb-3">
                           <div class="tab-exam-cards">                                        
                             <div class="tab-text-columns">                                    
                               <div class="column">                                                                             
@@ -692,7 +692,7 @@
                            </div>
                           </div>
                         </div>
-                        <div class="col-md-4 mb-3">
+                        <div class="col-md-4 col-sm-6 col-xs-12 mb-3">
                           <div class="tab-exam-cards">                                        
                             <div class="tab-text-columns">                                    
                               <div class="column">                                                                             
@@ -748,7 +748,7 @@
                 <div class="data-text" id="data5"> 
                   <h6>ME/B.Tech</h6>                   
                       <div class="row">
-                        <div class="col-md-4 mb-3">
+                        <div class="col-md-4 col-sm-6 col-xs-12 mb-3">
                             <div class="tab-exam-cards">                                        
                               <div class="tab-text-columns">                                    
                                 <div class="column">                                                                             
@@ -804,7 +804,7 @@
                              </div>
                             </div>
                         </div>
-                        <div class="col-md-4 mb-3">
+                        <div class="col-md-4 col-sm-6 col-xs-12 mb-3">
                           <div class="tab-exam-cards">                                        
                             <div class="tab-text-columns">                                    
                               <div class="column">                                                                             
@@ -861,7 +861,7 @@
                            </div>
                           </div>
                         </div>
-                        <div class="col-md-4 mb-3">
+                        <div class="col-md-4 col-sm-6 col-xs-12 mb-3">
                           <div class="tab-exam-cards">                                        
                             <div class="tab-text-columns">                                    
                               <div class="column">                                                                             
@@ -917,7 +917,7 @@
                 <div class="data-text" id="data6"> 
                   <h6>B.Sc</h6>                   
                       <div class="row">
-                        <div class="col-md-4 mb-3">
+                        <div class="col-md-4 col-sm-6 col-xs-12 mb-3">
                             <div class="tab-exam-cards">                                        
                               <div class="tab-text-columns">                                    
                                 <div class="column">                                                                             
@@ -973,7 +973,7 @@
                              </div>
                             </div>
                         </div>
-                        <div class="col-md-4 mb-3">
+                        <div class="col-md-4 col-sm-6 col-xs-12 mb-3">
                           <div class="tab-exam-cards">                                        
                             <div class="tab-text-columns">                                    
                               <div class="column">                                                                             
@@ -1030,7 +1030,7 @@
                            </div>
                           </div>
                         </div>
-                        <div class="col-md-4 mb-3">
+                        <div class="col-md-4 col-sm-6 col-xs-12 mb-3">
                           <div class="tab-exam-cards">                                        
                             <div class="tab-text-columns">                                    
                               <div class="column">                                                                             
@@ -1086,7 +1086,7 @@
                 <div class="data-text" id="data7"> 
                   <h6>BA</h6>                   
                       <div class="row">
-                        <div class="col-md-4 mb-3">
+                        <div class="col-md-4 col-sm-6 col-xs-12 mb-3">
                             <div class="tab-exam-cards">                                        
                               <div class="tab-text-columns">                                    
                                 <div class="column">                                                                             
@@ -1142,7 +1142,7 @@
                              </div>
                             </div>
                         </div>
-                        <div class="col-md-4 mb-3">
+                        <div class="col-md-4 col-sm-6 col-xs-12 mb-3">
                           <div class="tab-exam-cards">                                        
                             <div class="tab-text-columns">                                    
                               <div class="column">                                                                             
@@ -1199,7 +1199,7 @@
                            </div>
                           </div>
                         </div>
-                        <div class="col-md-4 mb-3">
+                        <div class="col-md-4 col-sm-6 col-xs-12 mb-3">
                           <div class="tab-exam-cards">                                        
                             <div class="tab-text-columns">                                    
                               <div class="column">                                                                             
@@ -1255,7 +1255,7 @@
                 <div class="data-text" id="data8"> 
                   <h6>B.Com</h6>                   
                       <div class="row">
-                        <div class="col-md-4 mb-3">
+                        <div class="col-md-4 col-sm-6 col-xs-12 mb-3">
                             <div class="tab-exam-cards">                                        
                               <div class="tab-text-columns">                                    
                                 <div class="column">                                                                             
@@ -1311,7 +1311,7 @@
                              </div>
                             </div>
                         </div>
-                        <div class="col-md-4 mb-3">
+                        <div class="col-md-4 col-sm-6 col-xs-12 mb-3">
                           <div class="tab-exam-cards">                                        
                             <div class="tab-text-columns">                                    
                               <div class="column">                                                                             
@@ -1368,7 +1368,7 @@
                            </div>
                           </div>
                         </div>
-                        <div class="col-md-4 mb-3">
+                        <div class="col-md-4 col-sm-6 col-xs-12 mb-3">
                           <div class="tab-exam-cards">                                        
                             <div class="tab-text-columns">                                    
                               <div class="column">                                                                             
@@ -1424,7 +1424,7 @@
                 <div class="data-text" id="data9"> 
                   <h6>BCA</h6>                   
                       <div class="row">
-                        <div class="col-md-4 mb-3">
+                        <div class="col-md-4 col-sm-6 col-xs-12 mb-3">
                             <div class="tab-exam-cards">                                        
                               <div class="tab-text-columns">                                    
                                 <div class="column">                                                                             
@@ -1480,7 +1480,7 @@
                              </div>
                             </div>
                         </div>
-                        <div class="col-md-4 mb-3">
+                        <div class="col-md-4 col-sm-6 col-xs-12 mb-3">
                           <div class="tab-exam-cards">                                        
                             <div class="tab-text-columns">                                    
                               <div class="column">                                                                             
@@ -1537,7 +1537,7 @@
                            </div>
                           </div>
                         </div>
-                        <div class="col-md-4 mb-3">
+                        <div class="col-md-4 col-sm-6 col-xs-12 mb-3">
                           <div class="tab-exam-cards">                                        
                             <div class="tab-text-columns">                                    
                               <div class="column">                                                                             
@@ -1593,7 +1593,7 @@
                 <div class="data-text" id="data10"> 
                   <h6>BBA/BMS</h6>                   
                       <div class="row">
-                        <div class="col-md-4 mb-3">
+                        <div class="col-md-4 col-sm-6 col-xs-12 mb-3">
                             <div class="tab-exam-cards">                                        
                               <div class="tab-text-columns">                                    
                                 <div class="column">                                                                             
@@ -1649,7 +1649,7 @@
                              </div>
                             </div>
                         </div>
-                        <div class="col-md-4 mb-3">
+                        <div class="col-md-4 col-sm-6 col-xs-12 mb-3">
                           <div class="tab-exam-cards">                                        
                             <div class="tab-text-columns">                                    
                               <div class="column">                                                                             
@@ -1706,7 +1706,7 @@
                            </div>
                           </div>
                         </div>
-                        <div class="col-md-4 mb-3">
+                        <div class="col-md-4 col-sm-6 col-xs-12 mb-3">
                           <div class="tab-exam-cards">                                        
                             <div class="tab-text-columns">                                    
                               <div class="column">                                                                             
@@ -1762,7 +1762,7 @@
                 <div class="data-text" id="data11"> 
                   <h6>B.Sc(Nursing)</h6>                   
                       <div class="row">
-                        <div class="col-md-4 mb-3">
+                        <div class="col-md-4 col-sm-6 col-xs-12 mb-3">
                             <div class="tab-exam-cards">                                        
                               <div class="tab-text-columns">                                    
                                 <div class="column">                                                                             
@@ -1818,7 +1818,7 @@
                              </div>
                             </div>
                         </div>
-                        <div class="col-md-4 mb-3">
+                        <div class="col-md-4 col-sm-6 col-xs-12 mb-3">
                           <div class="tab-exam-cards">                                        
                             <div class="tab-text-columns">                                    
                               <div class="column">                                                                             
@@ -1875,7 +1875,7 @@
                            </div>
                           </div>
                         </div>
-                        <div class="col-md-4 mb-3">
+                        <div class="col-md-4 col-sm-6 col-xs-12 mb-3">
                           <div class="tab-exam-cards">                                        
                             <div class="tab-text-columns">                                    
                               <div class="column">                                                                             

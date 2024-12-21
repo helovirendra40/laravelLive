@@ -169,3 +169,18 @@
             ]
         });
     });
+
+
+   
+    
+
+    $(document).ready(function(){
+      $('.toggleMenu').click(function(){
+        $('.MobileMenu').css("right", "0")
+    });
+    $('.BackBtn').click(function(){
+      // alert('clicked')
+      $('.MobileMenu').css("right", "-300px")
+  });
+        
+});

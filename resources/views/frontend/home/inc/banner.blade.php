@@ -25,8 +25,13 @@
                         <div class="wm-caption-two-inner">
                             <h1>Let AI Find Online Courses For You</h1>   
                             <form class="form-wrapper">
-                                <input type="text" id="search" placeholder="Search for..." required>
-                                <button><i class="wmicon-search"></i></button>
+                                <!-- <input type="text" id="search" placeholder="Search for..." required>
+                                <button><i class="wmicon-search"></i></button> -->
+                                <div class="input-group changeSearchField">
+                                    
+                                    <input type="text" class="form-control" id="search" placeholder="Search for..." required />
+                                    <button style="background: #3F3F40" class="input-group-addon heroSearchButton cursor-pointer" id="basic-addon1"><i class="fa fa-search"></i></button>
+                                </div>
                             </form>                                 
                         </div>
                     </div>                           

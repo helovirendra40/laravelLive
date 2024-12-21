@@ -12,10 +12,12 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('banner', function (Blueprint $table) {
-            $table->id();
-            
-            
-
+            $table->id();            
+            $table->string("title");
+            $table->string("slug");
+            $table->longText("status");
+            $table->string("image");
+            $table->timestamps("deleted_at");
             $table->timestamps();
         });
     }
