@@ -131,3 +131,21 @@ $('.Explore_Program_Slider').slick({
       // instead of a settings object
     ]
   });
+
+  function Explore_Program() {
+    // alert("function run")
+    setTimeout(function() {
+        document.querySelector('Explore_Program_Slider').style.display = 'block';
+    }, 1000); // Delay in milliseconds (3000 ms = 3 seconds)
+}
+
+
+
+function respons() {
+    // alert("function run")
+    setTimeout(function() {
+        document.querySelector('respons').style.display = 'block';
+    }, 1000); // Delay in milliseconds (3000 ms = 3 seconds)
+}
+respons();
+Explore_Program();

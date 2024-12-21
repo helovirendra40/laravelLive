@@ -10454,6 +10454,7 @@ right: 0px;}
 .firstslide{
    text-align: center;
    font-weight: 600;
+   margin-bottom: 20px; margin-top: 20px
 }
 .course_number{
     background-color:#00aced;
@@ -10872,8 +10873,8 @@ right: 0px;}
 .slick-prev {
     right: 98%;
 }
-.slidecl img{ display: block; margin: 0px auto;
-margin: 0px 0px;
+.slidecl img{ display: block; margin: 0px auto; width: 100px; margin-top: 13px;
+
 }
  /* Continuous Scrolling Text Slider */
  .text-scrolling-slider {
@@ -11216,11 +11217,10 @@ right: 0px;}
 .slidechome img{ width: 90%; margin: 15px auto; margin-bottom: 0px;;}
 .respons .slick-next{ right: -11px}
 .respons .slick-prev{ right: 99.5%;}
+.width-100 img{ width: 100px; margin-top: 20px;}
 
 
-.wm-caption-two88{    transform: translate(-50%, -50%);
-top: 50%;
-left: 50% !important;}
+.wm-caption-two88{    transform: translate(-50%, -50%); top: 50%; left: 50% !important;}
 .form-wrapper88{ width: 100%; display: flex; align-items: center; justify-content: center;}
 .heroSearch { width: 65%;position: relative;}
 .heroSearch input{ width: 100%; }
@@ -11706,6 +11706,7 @@ left: 50% !important;}
     .content-item.active {
         margin-top: 111px;
     }
+    .Explore_Program_Slider{ display: none;}
     /* .fixedLeftTabs{ position: sticky; top: 0px;} */
 
 /* @media (max-width: 991px){

@@ -69,9 +69,9 @@ body.loaded .preloader {
 </head>
     <body>
 
-    <div class="preloader">
+    <!-- <div class="preloader">
         <div class="loader"></div>
-    </div>
+    </div> -->
         <div class="wm-main-wrapper">
                <!--//  Banner start \\-->
              
