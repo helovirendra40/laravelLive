@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             
-            <div class="wm-filter-top">
+            <div class="wm-filter-top bannerContainerForText">
                 <ul>
                   <li><h1>Top MBA Colleges in India: Ranking 2024, Fees, Admissions, Courses, Placements</h1></li>
                   <li><p>There are about 80+
