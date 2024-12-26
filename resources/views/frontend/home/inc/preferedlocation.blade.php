@@ -5,7 +5,7 @@
                 
                 <div class="col-md-12">
                     <div class="wm-parallex">
-                        <h2>Your Prefered Location</h2>
+                        <h2 class="mb-mobile-0">Your Prefered Location</h2>
                         <!-- <span>Conservatory album produced projects for students!</span>
                         <a class="wm-classic-button wm-bgcolor-two" href="#"><i class="wmicon-shop"></i> Start Shopping</a> -->
                     </div>
@@ -16,11 +16,11 @@
     </div>
     <!--// Main Section \\-->
     <!--// Main Section \\-->
-            <div class="wm-main-section ">        
+            <div class="wm-main-section bg-white ">        
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-                            <div class="wm-simple-section-title wm-partners-title-two"> </div>                                    
+                            {{-- <div class="wm-simple-section-title wm-partners-title-two"> </div>                                     --}}
                         
                             <div class="col-md-12">
                                 <div class="responsive">                                            

@@ -44,15 +44,42 @@
                 <!-- start Mobile menu  -->
                  <div class="MobileMenu">
                     <p class="BackBtn"><img width="50" height="50" src="https://img.icons8.com/ios-filled/50/back.png" alt="back"/><span>Back</span></p>
+                    
+                    <hr />
+                    <div class="filetrSearch mt-2">                        
+                        <input type="text." id="myInputNew" onkeyup="myFunctionNew()" class="form-control">
+                        <img width="50" height="50" src="https://img.icons8.com/ios/50/search--v1.png" alt="search--v1">
+                    </div>
+                    
+                      
+                    <ul id="myULMenu" class="mt-1">   
+                        <li class="d-flex"> <div class="checkbox-wrapper-48">
+                            <label><input type="checkbox" name="cb"></label>
+                          </div> <a class="text-black" href="#">B TECH</a></li>
+                        <li class="d-flex"><div class="checkbox-wrapper-48">
+                            <label><input type="checkbox" name="cb"></label>
+                          </div><a class="text-black" href="#">MSC</a></li>
+                        <li class="d-flex"><div class="checkbox-wrapper-48">
+                            <label><input type="checkbox" name="cb"></label>
+                          </div><a class="text-black" href="#">BCA</a></li>
+                        <li class="d-flex"><div class="checkbox-wrapper-48">
+                            <label><input type="checkbox" name="cb"></label>
+                          </div><a class="text-black" href="#">MCA</a></li>
+    
+                        
+                       
+                    </ul>
+                    <hr />
                     @if (count($menu) > 0)
-                                            <ul class="nav navbar-nav">
-                                                    @foreach ($menu as $item)
-                                                    <li class="nav-item">
-                                                        <a class="nav-link{{ request()->url() == $item["href"] ? " active" : "" }}" href="{{ $item["href"] }}">{{ $item["text"] }}</a>
-                                                    </li>
-                                                    @endforeach
-                                            </ul>
-                                      @endif
+                        <ul class="nav navbar-nav">
+                                @foreach ($menu as $item)
+                                <li class="nav-item">
+                                    <a class="nav-link{{ request()->url() == $item["href"] ? " active" : "" }}" href="{{ $item["href"] }}">{{ $item["text"] }}</a>
+                                </li>
+                                @endforeach
+                        </ul>
+                    @endif
+                                      
                  </div>
                  <!-- end of MobileMenu -->
                 <!-- end Mobile menu  -->
@@ -61,9 +88,11 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md-12">
+                                {{-- <div class="MobileFixedMenuIconSide"></div> --}}
                                 <!-- <div class="wm-stripinfo"> <ul> <li><i class="wmicon-technology4"></i>  +91 92898 66815</li> <li><i class="wmicon-letter"></i>info@vidyalive.com</li> </ul> </div> -->
                                         @if (count($menu) > 0)
-                                            <ul class="wm-adminuser-section">
+                                            <ul class="wm-adminuser-section adminUserSectionMenu">
+                                                <div class="closeIconForSecoundMenu"> <i class="fa fa-close"></i></div>
                                                     @foreach ($menu as $item)
                                                     <li>
                                                         <a class="nav-link{{ request()->url() == $item["href"] ? " active" : "" }}" href="{{ $item["href"] }}">{{ $item["text"] }}</a>
@@ -76,6 +105,24 @@
                     </div>
                 </div>
                 <!--// TopStrip \\-->
+                <script>
+                    function myFunctionNew() {
+                        var input, filter, ul, li, a, i, txtValue;
+                        input = document.getElementById("myInputNew");
+                        filter = input.value.toUpperCase();
+                        ul = document.getElementById("myULMenu");
+                        li = ul.getElementsByTagName("li");
+                        for (i = 0; i < li.length; i++) {
+                            a = li[i].getElementsByTagName("a")[0];
+                            txtValue = a.textContent || a.innerText;
+                            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                                li[i].style.display = "";
+                            } else {
+                                li[i].style.display = "none";
+                            }
+                        }
+                    }
+                    </script>
 </header>
 
 

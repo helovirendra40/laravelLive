@@ -182,5 +182,25 @@
       // alert('clicked')
       $('.MobileMenu').css("right", "-300px")
   });
+
+
+  //! $('.MobileFixedMenuIconSide').click(function(){
+  //!   $('.adminUserSectionMenu').css("left", "0")
+  //! });
+  //! $('.closeIconForSecoundMenu').click(function(){
+  //!   $('.adminUserSectionMenu').css("left", "-280px")
+  //!   // alert("Working")
+
+  // ! })
         
+
+  $('.forFilterPageBottomFixed').click(function(){
+    $('.forFilterPage').css('top', "20vh").slideDown()
+    // alert('hsgahsg')
+  });
+   
+  $('.filterCLoseIcon').click(function(){
+    $('.forFilterPage').css('top', "-100vh").slideUp()
+    // alert('hsgahsg')
+  });
 });

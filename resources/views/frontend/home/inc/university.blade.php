@@ -7,7 +7,7 @@
                             
                             <div class="col-md-12">
                                 <div class="wm-parallex">
-                                    <h2>Compare Your Universities</h2>
+                                    <h2 class="mb-mobile-0">Compare Your Universities</h2>
                                     <!-- <span>Conservatory album produced projects for students!</span>
                                     <a class="wm-classic-button wm-bgcolor-two" href="#"><i class="wmicon-shop"></i> Start Shopping</a> -->
                                 </div>

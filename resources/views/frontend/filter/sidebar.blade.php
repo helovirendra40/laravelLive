@@ -1,4 +1,5 @@
 <aside class="col-md-3 bg-white forFilterPage" style="padding-bottom: 50px">
+    <i class="fa filterCLoseIcon fa-close"></i>
     <div class="widget widget_check-box ">   
         <div class="accordion-item open ">
             <h5  class="accordion-toggle mb-0">Search </h5>
