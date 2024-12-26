@@ -47,11 +47,19 @@
                                     </div>
                                         <!-- <div class="wm-courses-price"> <span>$32</span> </div> -->
                                     
-                                        <ul>
-                                            <li><a href="#" class="wm-color d-flex align-items-center"><i class="wmicon-bullets"></i>  Admissions</a></li>
-                                            <li><a href="#" class="wm-color d-flex align-items-center"><i class="wmicon-bullets"></i> Courses</a></li>
-                                            <li><a href="#" class="wm-color d-flex align-items-center"><i class="wmicon-bullets"></i> Fee</a></li>
-                                            <li><a href="#" class="wm-color d-flex align-items-center"><i class="wmicon-bullets"></i>Placements</a></li>
+                                        <ul class="colorList">
+                                            <li><a href="#" class="wm-color d-flex align-items-center">
+                                                {{-- <i class="wmicon-bullets"></i> --}}
+                                                  Admissions</a></li>
+                                            <li><a href="#" class="wm-color d-flex align-items-center">
+                                                {{-- <i class="wmicon-bullets"></i>  --}}
+                                                Courses</a></li>
+                                            <li><a href="#" class="wm-color d-flex align-items-center">
+                                                {{-- <i class="wmicon-bullets"></i>  --}}
+                                                Fee</a></li>
+                                            <li><a href="#" class="wm-color d-flex align-items-center">
+                                                {{-- <i class="wmicon-bullets"></i> --}}
+                                                Placements</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -102,11 +110,19 @@
                                     </div>
                                         <!-- <div class="wm-courses-price"> <span>$32</span> </div> -->
                                     
-                                        <ul>
-                                            <li><a href="#" class="wm-color d-flex align-items-center"><i class="wmicon-bullets"></i>  Admissions</a></li>
-                                            <li><a href="#" class="wm-color d-flex align-items-center"><i class="wmicon-bullets"></i> Courses</a></li>
-                                            <li><a href="#" class="wm-color d-flex align-items-center"><i class="wmicon-bullets"></i> Fee</a></li>
-                                            <li><a href="#" class="wm-color d-flex align-items-center"><i class="wmicon-bullets"></i>Placements</a></li>
+                                        <ul class="colorList">
+                                            <li><a href="#" class="wm-color d-flex align-items-center">
+                                                {{-- <i class="wmicon-bullets"></i> --}}
+                                                  Admissions</a></li>
+                                            <li><a href="#" class="wm-color d-flex align-items-center">
+                                                {{-- <i class="wmicon-bullets"></i>  --}}
+                                                Courses</a></li>
+                                            <li><a href="#" class="wm-color d-flex align-items-center">
+                                                {{-- <i class="wmicon-bullets"></i>  --}}
+                                                Fee</a></li>
+                                            <li><a href="#" class="wm-color d-flex align-items-center">
+                                                {{-- <i class="wmicon-bullets"></i> --}}
+                                                Placements</a></li>
                                         </ul>
                                     </div>
                                 </div>
